@@ -37,6 +37,20 @@
 			);
 			target = 2ADC2FF52CC4095F00E5FFCC /* TestingSwift */;
 		};
+		2ADC305C2CC41ED000E5FFCC /* Exceptions for "TestingSwift" folder in "TestingSwiftTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Calculator.swift,
+			);
+			target = 2ADC300B2CC4096100E5FFCC /* TestingSwiftTests */;
+		};
+		2ADC305D2CC41ED000E5FFCC /* Exceptions for "TestingSwift" folder in "TestingSwiftUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Calculator.swift,
+			);
+			target = 2ADC30152CC4096100E5FFCC /* TestingSwiftUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +58,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				2ADC301E2CC4096100E5FFCC /* Exceptions for "TestingSwift" folder in "TestingSwift" target */,
+				2ADC305C2CC41ED000E5FFCC /* Exceptions for "TestingSwift" folder in "TestingSwiftTests" target */,
+				2ADC305D2CC41ED000E5FFCC /* Exceptions for "TestingSwift" folder in "TestingSwiftUITests" target */,
 			);
 			path = TestingSwift;
 			sourceTree = "<group>";

@@ -32,5 +32,20 @@ final class TestingSwiftTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testMultiply() {
+        let result = Calculator().multiply(10, 3)
+        XCTAssertEqual(result, 30, "print(\(result))")
+    }
+    
+    func testAdd() {
+        let result = Calculator().add(10, 3)
+        XCTAssertEqual(result, 30, "print(\(result))")
+    }
+    
+    func testDivide() {
+        let result = Calculator().divide(9, 3)
+        XCTAssertEqual(result, 3)
+    }
 
 }
